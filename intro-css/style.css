@@ -1,0 +1,12 @@
+/* se puede seleccionar por la etiqueta, class y id  */
+p{
+    color: blue;
+}
+
+.ejemplo{
+    font-size: 12px;
+}
+
+#texto{
+    background-color: black;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <!-- el for referencia al id del input -->
+                <span><!-- texto del input --></span>
+                <input type="text" id="nombre" placeholder="" autocomplete="" required>
+                <!-- hay varios tipos de input y el placeholder para ayudar al usuario-, autocomplete es para completar de forma automatica los input y required para forzar a completar los campos -->
+            </label>
+            <input list="cursos">
+            <datalist id="cursos">
+                <!-- para genrar un buena practica en el desarrollo web -->
+                <option value="html"></option>
+                <!-- el list y id tienen que ser iguales y dentro de value llevan la informacion que deseas -->
+            </datalist>
+            <input type="submit">
+            <!-- utilizado para formularios -->
+        </form>
+        <button><!-- utilizado para otro boton que se desee --></button>
+    </main>
+</body>
+</html>

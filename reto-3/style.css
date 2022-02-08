@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: gray;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    border-radius: 6px;
+    top: 250px;
+    padding: 30px;
+    text-align: justify;    
+}
+h1{
+    position: absolute;
+    top: -21px;
+    background-color: aquamarine;
+    padding: 6px;
+    border-radius: 7px;
+    right: 115px;
+}
+section{
+    margin: 15px;
+    
+}

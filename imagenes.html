@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <main>
+        <section>
+            <figure>
+                <img src="" alt="">
+                <!-- src es la ruta de la carpeta o link de la imagen y alt es muy importante poner -->
+                <figcaption>
+                    <!-- para poner un pequeño titulo -->
+                </figcaption>
+            </figure>
+        </section>
+        <section>
+            <video controls preload="auto">
+                <!-- src es la ruta, controls para poner pausa ver el tiempo etc y preload auto para que se carge cuando se accede a la pagina, con #t indicando en que minuto queremos iniciar y luego para finalizar -->
+                <source src="ruta#t=10,60">
+                <source src="ruta#t=10,60">
+                <!-- source para cuando tenemos el mismo video en diferentes formatos y sacamos el src de vedio y le ponemos a source -->
+            </video>
+        </section>
+        <section>
+            <picture>
+                <source media="(min-widht:1300px)" srcset="ruta-large.jpg">
+                <source media="(min-widht:1000px)" srcset="ruta-medium.jpg">
+                <img src="ruta-small.jpg" alt="">
+            </picture>
+            <!-- cuando tenemos diferentes tamaños de imagenes para un proyecto seria usar picture y dentro los source  que van a mostrar la imagene de acuerdo con el media que le haiganos puesto, srcset cambia la ruta de img sino se cumple ninguna media carga el img por defecto-->
+        </section>
+    </main>
+</body>
+</html>
